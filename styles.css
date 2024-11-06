@@ -1,0 +1,58 @@
+.container{
+    
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1728px;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    /* justify-content: space-between; */
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 17px 22px;
+    width: 539px;
+    height: 59px;
+    align-items: center;
+    border-radius: 10px;
+    
+    /* margin-bottom: 20px; */
+
+}
+
+
+
+body{
+    background-color: black;
+    color:white;
+    margin: 50px;
+}
+
+.input_box{
+    width:531px;    
+    margin: "10px 5px"
+}
+
+.btn{
+    width: 256px;
+    height: 58px;
+    background-color: white;
+    color:black
+}
+
+
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+

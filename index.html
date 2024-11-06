@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PROFESSION MANAGEMENT SYSTEM</title>
+        <meta name="description" content="">
+        
+        <link rel="stylesheet" href="./styles.css">
+        
+        
+    </head>
+    <body>
+
+        <form  id="form">
+        <h1 class="body">New Employees</h1>
+        
+
+        <div class="container">
+
+        
+
+            <div class="input_box" >
+                <label>
+                    Enter name
+                    <br />
+                    <input type="text"  name="name" placeholder="Enter Name" style="border:1px solid white; background-color:black; color:white; width:300px; height:30px" />
+                </label>
+            </div>
+
+            <div class="input_box">
+                <label>
+                    Enter Profession
+                    <br />
+                    <input type="text" name="profession" placeholder="Enter Profession" style="border:1px solid white; background-color:black; color:white; width:300px; height:30px " />
+                </label>
+            </div>
+            
+            <div class="input_box" >
+                <label>
+                    Enter Age
+                    <br />
+                    <input type="text" name="age" placeholder="Enter Age" style="border:1px solid white; background-color:black; color:white; width:300px; height:30px" />
+                </label>
+            </div>
+
+        
+
+        </div>
+
+        <button type="submit" onClick="submitted(event)" class="btn" >Add User</button>
+
+        <p id="message"></p>
+
+        <h1>Added Employees</h1>
+
+        <div id="employee">
+            You have 0 Employees.
+            
+
+        </div>
+
+    </form>
+
+   
+
+       
+
+        
+
+        
+        
+        <script src="./script.js" ></script>
+    </body>
+</html>
